@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>instaFEED</title>
+</head>
+<body>
+    <h1>JavaScript Instagram Feed</h1>
+
+    <div id="instafeed"></div>
+    <script src='https://token-guy-12098.herokuapp.com/token.js'></script>
+
+    <script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
+
+    <script type="text/javascript">
+        var feed = new Instafeed({
+          accessToken: 'IGQVJWQ0wteTFNc2hQM1FKWFE3dDdGQThxTThGWGxaR0ZACd254RWx0ZA2g1eWFBdy0xZA09PVVk5d1ZAhZAmxBYmJFYkdEbWZAwMzJza1FKVjNrbUprRWtCTjh4OFlqd19RR1l2VVhCRXZAxUDc2aWhjbzk3MwZDZD',
+          target : 'instafeed',
+         
+        });
+        feed.run();
+    </script>
+    
+
+</body>
+</html>
